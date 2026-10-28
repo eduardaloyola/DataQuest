@@ -18,13 +18,7 @@ Trabalha sobre o arquivo **Medium** do WPP2024.
 - Cria as colunas `Periodo` (Estimativa até 2023 / Projecao de 2024 em diante), `Regiao` e `Subregiao`
 - Junta as colunas do arquivo *Supplement* (nascimentos por sexo e expectativa de vida aos 60)
 
-## Como rodar
-1. Baixe os dados originais com a organização do DataQuest ou em https://population.un.org/wpp/ e coloque na pasta `dados/`:
-   - `WPP2024_Demographic_Indicators_Medium_csv.gz`
-   - `WPP2024_Supplement_Births_and_LE60.csv`
-2. Instale o pandas: `pip install pandas`
-3. Rode: `python limpeza_dados.py`
-4. Os arquivos `paises_limpo.csv` e `agregados_limpo.csv` aparecem na pasta `saida/`.
+#
 
 Também há um notebook para o Google Colab: `DataQuest_Limpeza_WPP2024.ipynb`.
 
