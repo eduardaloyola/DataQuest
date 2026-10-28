@@ -2,6 +2,8 @@
 
 > **Este repositório faz parte de uma competição, não é um projeto pessoal.**
 > Trata-se da etapa de **limpeza de dados** feita pelo nosso grupo para o **DataQuest 2026**, um desafio internacional de análise de dados.
+>
+> Link do Google Colab para melhor visualização: https://colab.research.google.com/drive/103Iah5eOEV8NMzca_QZFzokmJIvEBVNe?authuser=1
 
 ## Sobre o DataQuest
 O DataQuest é um desafio em que equipes recebem dados reais, escolhem uma pergunta e contam o que descobriram com a análise. Nesta edição, os dados são o **World Population Prospects 2024 (WPP2024)**, da ONU: população, fecundidade, mortalidade e migração de países e regiões, de 1950 a 2100.
@@ -18,9 +20,6 @@ Trabalha sobre o arquivo **Medium** do WPP2024.
 - Cria as colunas `Periodo` (Estimativa até 2023 / Projecao de 2024 em diante), `Regiao` e `Subregiao`
 - Junta as colunas do arquivo *Supplement* (nascimentos por sexo e expectativa de vida aos 60)
 
-#
-
-Também há um notebook para o Google Colab: `DataQuest_Limpeza_WPP2024.ipynb`.
 
 ## Fonte dos dados
 United Nations, Department of Economic and Social Affairs, Population Division. *World Population Prospects 2024*.
